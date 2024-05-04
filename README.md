@@ -1,5 +1,4 @@
 # cookiecutter_research
-
 A cookiecutter template for ML research in Python.
 
 This template aims to combine Python software development best practices with useful research extensions.
@@ -7,7 +6,7 @@ This template aims to combine Python software development best practices with us
 ## Usage
 From inside the directory you wish to generate a repository (e.g. `cd $HOME/code`), run:
 ```bash
-cookiecutter https://github.com/joncarter1/cookiecutter_research.git
+cookiecutter https://github.com/blustrini/cookiecutter_research.git
 ```
 
 ## Template structure
@@ -29,5 +28,8 @@ setup.cfg # Package installation configuration file.
 ```
 
 ## Credits
-This cookiecutter draws heavily on Audrey Feldroy's Python software package template:
+This cookiecutter repo was forked from Jonathan Carter's research repo cookiecutter:
+https://github.com/joncarter1/cookiecutter_research.git
+
+That cookiecutter draws heavily on Audrey Feldroy's Python software package template:
 https://github.com/audreyfeldroy/cookiecutter-pypackage
