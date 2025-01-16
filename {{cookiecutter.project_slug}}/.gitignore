@@ -72,3 +72,7 @@ ENV/
 # Hydra
 multirun
 outputs
+
+# Data
+cache/
+plots/

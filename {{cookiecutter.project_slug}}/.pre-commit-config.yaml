@@ -40,3 +40,10 @@ repos:
     additional_dependencies: [pydantic]
     verbose: true
 {% endif %}
+{% if cookiecutter.mypy -%}
+- repo: https://github.com/fastai/nbdev
+  rev: 2.2.10
+  hooks:
+  - id: nbdev_clean
+    args: [--clear_al]
+{% endif $}

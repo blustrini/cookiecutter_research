@@ -6,6 +6,7 @@
     "line_length": "120",
     "python_version": 3.11,
     "mypy": false,
+    "nbdev": true,
     "open_source_license": [
         "MIT license",
         "BSD license",
