@@ -46,4 +46,4 @@ repos:
   hooks:
   - id: nbdev_clean
     args: [--clear_al]
-{% endif $}
+{% endif %}
